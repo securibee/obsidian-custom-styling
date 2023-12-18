@@ -1,0 +1,70 @@
+/* Callouts */
+
+.callout {
+  border: 1px solid rgba(var(--callout-default), .6);
+}
+
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] {
+  border: 1px solid rgba(var(--callout-summary), .6);
+}
+
+.callout[data-callout="info"] {
+  border: 1px solid rgba(var(--callout-info), .6);
+}
+
+.callout[data-callout="todo"] {
+  border: 1px solid rgba(var(--callout-todo), .6);
+}
+
+.callout[data-callout="important"] {
+  border: 1px solid rgba(var(--callout-important), .6);
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="hint"] {
+  border: 1px solid rgba(var(--callout-tip), .6);
+}
+
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  border: 1px solid rgba(var(--callout-success), .6);
+}
+
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  border: 1px solid rgba(var(--callout-question), .6);
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  border: 1px solid rgba(var(--callout-warning), .6);
+}
+
+.callout[data-callout="failure"],
+.callout[data-callout="fail"],
+.callout[data-callout="missing"] {
+  border: 1px solid rgba(var(--callout-fail), .6);
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"] {
+  border: 1px solid rgba(var(--callout-error), .6);
+}
+
+.callout[data-callout="bug"] {
+  border: 1px solid rgba(var(--callout-bug), .6);
+}
+
+.callout[data-callout="example"] {
+  border: 1px solid rgba(var(--callout-example), .6);
+}
+
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  border: 1px solid rgba(var(--callout-quote), .6);
+}
